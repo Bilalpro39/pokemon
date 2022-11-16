@@ -1,0 +1,108 @@
+.card-text {
+    font-size: 10px;
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.col {
+    padding: 0;
+}
+
+.action-row {
+    margin-top: 10px;
+    height: 50px;
+    text-align: center;
+}
+
+.grass {
+    background-image: url('poke-img/grass-type.png');
+    width: 100%;
+    color: white;
+}
+
+.fire {
+    background-image: url('poke-img/fire-type.png');
+    width: 100%;
+    color: white;
+}
+
+.water {
+    background-image: url('poke-img/water-type.png');
+    width: 100%;
+    color: white;
+}
+
+.bug {
+    background-image: url('poke-img/bug-type.png');
+    width: 100%;
+    color: white;
+}
+
+.normal {
+    background-image: url('poke-img/normal-type.png');
+    width: 100%;
+    color: white;
+}
+
+.poisen {
+    background-image: url('poke-img/poison-type.png');
+    width: 100%;
+    color: white;
+}
+
+.electric {
+    background-image: url('poke-img/electric-type.png');
+    width: 100%;
+    color: white;
+}
+
+.ground {
+    background-image: url('poke-img/ground-type.png');
+    width: 100%;
+    color: white;
+}
+
+.fighting {
+    background-image: url('poke-img/fighting-type.png');
+    width: 100%;
+    color: white;
+}
+
+.psychic {
+    background-image: url('poke-img/psychic-type.png');
+    width: 100%;
+    color: white;
+}
+
+.rock {
+    background-image: url('poke-img/rock-type.png');
+    width: 100%;
+    color: white;
+}
+
+.ghost {
+    background-image: url('poke-img/ghost-type.png');
+    width: 100%;
+    color: white;
+}
+
+.ice {
+    background-image: url('poke-img/ice-type.png');
+    width: 100%;
+    color: white;
+}
+
+.dragon {
+    background-image: url('poke-img/dragon-type.png');
+    width: 100%;
+    color: white;
+}
+
+.rotate-card:active {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg)
+}

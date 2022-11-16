@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeDex</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="pokemon.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row action-row">
+            <div class="col-4">
+                <button class="btn btn-warning" id="hide-type">Hide</button>
+            </div>
+            <div class="col-4">
+                <select name="PokemonTypes" class="form-select" id="pokemonTypeOption">
+                    <option value="Water" selected>Water</option> 
+                    <option value="Fire">Fire</option>
+                    <option value="Grass">Grass</option>
+                    <option value="Electric">Electric</option>
+                    <option value="Bug">Bug</option>
+                    <option value="Normal">Normal</option>
+                    <option value="Psychic">Psychic</option>
+                    <option value="Dragon">Dragon</option>
+                    <option value="Ice">Ice</option>
+                    <option value="Poison">Poison</option>
+                    <option value="Ground">Ground</option>
+                    <option value="Rock">Rock</option>
+                    <option value="Fighting">Fighting</option>
+                 </select>
+            </div>
+            <div class="col-4">
+                <button class="btn btn-primary" id="show-type">Show</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="pokemonContainer">
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="pokemon.js"></script>
+</body>
+
+</html>
